@@ -29,7 +29,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
-	   <Go/>
+	  <script data-ad-client="ca-pub-7852366621322276" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	  <h1>test</h1>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
