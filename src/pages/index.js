@@ -12,11 +12,12 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
+	  <script data-ad-client="ca-pub-7852366621322276" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <SEO title="All posts" />
 		   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" /> 
         <Bio />
         <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
+          dodano reklame No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
           gatsby-config.js).
         </p>
