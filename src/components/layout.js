@@ -25,12 +25,13 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
 	  
-	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	 
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
+	   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </div>
   )
 }
