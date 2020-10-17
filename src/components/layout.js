@@ -31,7 +31,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
-	   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	   
     </div>
   )
 }
