@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import AdSense from 'react-adsense';
+ 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -30,7 +31,12 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Bio />
 	  <script data-ad-client="ca-pub-7852366621322276" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	  <h1>test</h1>
+	  <h1>test</h1><AdSense.Google
+  client='ca-pub-7852366621322276'
+  slot='7806394673'
+  style={{ width: 500, height: 300, float: 'left' }}
+  format=''
+/>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -64,6 +70,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
+	  
     </Layout>
   )
 }
